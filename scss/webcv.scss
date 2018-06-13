@@ -1,0 +1,62 @@
+@import "helpers/variables";
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+#profile-section {
+    margin: 2rem 0;
+}
+
+#profile-pic {
+    display: none;
+    max-width: 10rem;
+}
+
+
+
+
+
+.no-list-style {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-list {
+
+}
+
+.profile-question {
+    font-weight: bold;
+}
+
+.profile-answer {
+    font-style: italic;
+}
+
+.stats-list {
+    margin-bottom: 2rem;
+}
+
+.stats-heading {
+    margin-bottom: 1rem;
+}
+
+.stats-list li:nth-child(even) {
+    margin-bottom: 0.75rem;
+}
+
+.stats-question {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 0%;
+}
+
+@import "helpers/mediaqueries";
