@@ -31,6 +31,10 @@ h1 {
 .stats-question {
   font-weight: bold; }
 
+.progress {
+  background: #d2d2d2;
+  border-radius: 0; }
+
 .progress-bar {
   width: 0%; }
 
