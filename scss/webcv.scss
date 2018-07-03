@@ -22,9 +22,17 @@ h1 {
 
 
 
+.container .row:first-child {
+	margin: 1.5rem 0;
+}
+
 .no-list-style {
     list-style: none;
     padding: 0;
+}
+
+.nav-link {
+	border-radius: 0 !Important;
 }
 
 .profile-list {
@@ -53,6 +61,10 @@ h1 {
 
 .stats-question {
     font-weight: bold;
+}
+
+.perks-row, .skills-row {
+	margin: 0;
 }
 
 .progress {
